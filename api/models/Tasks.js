@@ -12,6 +12,10 @@ module.exports = {
       type: 'string',
       columnName: 'taskname'
     },
+    status: {
+      type: 'string',
+      columnName: 'status'
+    },
   },
 
 };

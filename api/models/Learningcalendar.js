@@ -6,22 +6,30 @@
  */
 
 module.exports = {
-  
   tableName: 'learningcalendar',
   attributes: {
     day: {
       type: 'string',
-      columnName: 'day'  
-  },
+      columnName: 'day'
+    },
     date: {
+      type: 'ref',
+      // allowNull: true,
+      columnName: 'date'
+    },
+    url: {
       type: 'string',
-      columnName: 'date'  
-  },
-  url: {
-    type: 'string',
-    columnName: 'url'  
-},
+      columnName: 'url'
+    },
+    topic: {
+      type: 'string',
+      columnName: 'topic'
+    },
+    // id:{
+    //   type:'number',
+    //   columnName:'id'
+    // }
   }
-
 };
+
 

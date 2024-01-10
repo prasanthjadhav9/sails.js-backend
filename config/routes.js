@@ -20,6 +20,8 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': { view: 'pages/homepage' },
+  'GET /learningcalendar/:id': 'LearningcalendarController.getLearningcalendarById',
+
 
   
   /***************************************************************************
